@@ -1,0 +1,5 @@
+a{
+  /* important to overlap the style of bootstap  */
+  /* text-decoration: none !important; */
+  color : inherit !important; 
+}

@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Zeyada&display=swap');
+
+.topContainer{
+    font-family: 'Roboto:ital'   ;
+    position : sticky ; 
+    top : 0px ; 
+    z-index : 1000 ; 
+    /* position: fixed  ;  */
+    /* width : 100% ;  */
+    /* position : fixed ; 
+    width : 100vw;  */
+    /* position : fixed  ; 
+    top : 0  ;  */
+    /* width : 100%  ; 
+    z-index : 10000 ;  */
+    /* position : sticky ; 
+    top : 0 ; 
+    z-index: 1000; */
+
+}

@@ -1,0 +1,129 @@
+.home{
+    display : flex ;
+    background-color:  #e2e2d8;
+}
+.outerContainer{
+    /* border: 20px solid red ;  */
+    /* width : 100vw ;  */
+
+}
+
+.productContainer{
+    display: flex ; 
+    width : 80vw;
+    padding:20px ; 
+    flex-wrap :wrap ; 
+    justify-content : space-around ; 
+}
+
+.filters{
+    /* width initall uof bith the filter and the ither container is divided as 50% of the screen */
+    background-color : black ; 
+    color : white ; 
+    padding : 20px ; 
+    display:flex ; 
+    flex-direction:column;
+    width:20%;
+    margin:10px ; 
+    height : 86vh ; 
+
+}
+.filters > span{
+    padding-bottom : 20px ; 
+}
+.title{
+    font-size : 30px ; 
+}
+.products{
+    width : 30% ;
+    margin : 10px ; 
+    /* display : flex ; 
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ; */
+    
+    
+}
+
+.cartItem{
+    display : flex ; 
+    justify-content : space-between  ;
+    align-items : center ;
+    margin:0 20px ; 
+    margin-bottom : 20px ; 
+    /* width: 450px ;  */
+    /* flex-direction: row-reverse; */
+    /* width:fit-content; */
+
+}
+.cartItemImg{
+    border-radius : 50% ; 
+    width : 50px ; 
+    height : 50px ; 
+    object-fit : cover ; 
+    /* clip the image if required to fit the given area and keepthe ratio in tact  */
+
+}
+.card{
+    transition-property : all ; 
+}
+.card:hover{
+    transform : scale(1.01) ; 
+    border: 3px solid lightblue ; 
+    transition-timing-function: ease-in-out;
+    transition-duration:0.25s ;
+}
+button{
+    transition : all ;
+}
+button:active{
+    transform:translateY(2.5px) ; 
+    transition-duration: 0s;
+}
+.cartItemDetail{
+    display:flex ; 
+    flex : 1 ; 
+    padding : 0 20px ; 
+    flex-direction:column ; 
+}
+
+.footer{
+    background-color: #bcbcb5;
+    /* background-color: rgb(203, 203, 255) */
+}
+
+.list-group-item{
+    animation: all;
+}
+.list-group-item:hover{
+    transform : scale(1.01) ; 
+    border: 3px solid lightblue ; 
+    transition-timing-function: ease-in-out;
+    transition-duration:0.25s ;
+}
+
+@media ( max-width: 771px ){
+    .filters{
+        width : 40% ; 
+        padding : 10px ; 
+        margin : 5px ;
+    }
+
+    .filters > span{
+        font-size : 10px ;
+    }
+    .title{
+        font-size: 18px !important ;
+   }
+   .productContainer{
+    width : 58% ; 
+    padding : 0 ;
+   }
+   .search{
+    display: none !important ;
+   }
+  .products{
+    width : 100% ; 
+  } 
+    
+}

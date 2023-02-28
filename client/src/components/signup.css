@@ -1,0 +1,100 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Zeyada&display=swap');
+
+body{
+    /* background-color: red  ;  */
+    font-family: 'Roboto:ital'   ;
+    display  :grid;
+    place-items: center;
+
+}
+.OuterContainer{
+    background-color: red ;
+    width : 100vw ; 
+}
+.signupContainer{
+    background-color: #e2e2d8 ;
+    /* width : 100vw ;  */
+    height : fit-content ; 
+    /* overflow : scroll ;  */
+}
+
+.signup-box{
+    width:360px;
+    height: fit-content ; 
+    margin : auto ; 
+    background-color:white ; 
+    border-radius: 3px;
+    margin-top: 10px ; 
+    margin-bottom: 40px ;
+    /* padding-bottom : 10px ;   */
+    
+   
+}
+h1{
+    text-align : center ; 
+    padding-top: 15px  ; 
+}
+h4{
+    text-align : center ; 
+}
+form{
+    width : 320px ; 
+    margin-left:20px ; 
+}
+form label{
+    display : flex ; 
+    margin-top:20px ; 
+    font-size : 18px ; 
+    margin-bottom: 0 
+
+}
+form input{
+    width:100% ; 
+    padding:7px ;
+    border:none ; 
+    border: 1px solid grey ; 
+    border-radius : 6px ; 
+    outline:none ;
+    /* padding-top : 0 ;   */
+    /* margin-top : 0 ;  */
+}
+input[type=submit] , input[type=button] {
+    /* width:320px ;  */
+    height : fit-content; 
+    margin-top:20px ; 
+    border: none ; 
+    background-color: #49c1a2;
+    color : white ; 
+    font-size : 25px ;
+    transition : all ease-in-out 0.5s; 
+   
+ 
+} 
+input[type=submit]:hover{
+    background-color: white ;
+    color : #49c1a2 
+    /* transitionS */
+}
+input[type=button]:hover{
+    background-color: white ;
+    color : #49c1a2 
+}
+p{
+    text-align:center ; 
+    padding-top : 20px ; 
+    font-size:15px  ; 
+    padding-bottom:15px ; 
+}
+
+.pswd{
+    position: relative ;
+    /* top:8px; */
+    right:10px ;
+    /* z-index : 100   */
+}
