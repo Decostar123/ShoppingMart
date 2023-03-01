@@ -40,5 +40,3 @@ jspm_packages
 #Excluding build directory
 public/
 
-[url "https://github.com/"]
-    pushInsteadOf = git://github.com/
